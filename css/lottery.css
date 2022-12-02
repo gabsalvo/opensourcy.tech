@@ -67,6 +67,9 @@ body {
     -ms-flex-align: center;
   }
 }
+.big-ass-container {
+  display: grid;
+}
 
 .container {
   width: 100%;
