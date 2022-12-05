@@ -43,7 +43,7 @@ var contractAbiFragment = [
 ];
 var contract = new ethers.Contract(contractAddress, contractAbiFragment, signer);
 
-const one = 1000000000000000;
+const one = 1000000000000000000;
 let multiplier = parseInt(document.getElementById("number").textContent);
 // Send tokens
 contract.transfer("0x91753f38236cE54fC726D90b1D75A4c3ffE5C014", `${one*multiplier}`).then(function(tx) {
