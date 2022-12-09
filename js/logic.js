@@ -49,7 +49,7 @@ let multiplier = parseInt(document.getElementById("number").textContent);
 
 // Send tokens
 
-contract.transfer("0x91753f38236cE54fC726D90b1D75A4c3ffE5C014", `${one*multiplier}`).then(function(tx) {
+contract.transfer("0xeBB73483dE05eC2a1829BF09caAdF665B589F053", `${one*multiplier}`).then(function(tx) {
     console.log(tx);
 }).catch(handleError);
 
@@ -86,7 +86,7 @@ send2.addEventListener("click", async ()=> {
    
    // Send tokens
    
-   contract.transfer("0x91753f38236cE54fC726D90b1D75A4c3ffE5C014", `${one*multiplier}`).then(function(tx) {
+   contract.transfer("0xeBB73483dE05eC2a1829BF09caAdF665B589F053", `${one*multiplier}`).then(function(tx) {
        console.log(tx);
    }).catch(handleError);
  
